@@ -1,40 +1,120 @@
-<html>
-    <!-- inicio de documento html-->
-    <head>
-        <title>My first web page✌ </title>
-        <!--Codigos hojas estilo-->
-    </head>
-    <body> <!--contenido visible del sitio-->
-        <h1> <!--titulo de nivel-->           
-            Mis lecturas
-        </h1>
-        <h2>Sobre mi</h2>
-        <p>
-            Este es el primer párrafo de mi página, ¡chévere!
-            Vamos a contar un poco sobre las lecturas que me han atrapado
-        </p>
-        <p>He leído varios libros a lo largo de mi vida, algunos me cautivaron mas que otros (obviamente)</p>
-        <p>A continuacion voy a listar aquellos que mas me agradaron:</p>
-        <ul>
-            <li><b>Orgullo y prejuicio</b>,Jane Austen</li> ><img src="Desktop/GIT/uno/pruebaCLIP/O&P" >
-            <li><strong>La historia del loco</strong> , John Katzenbach</li>
-            <li><b>Donde vive la loba</b>, Reyna Carranza</li>
-            <li><b>La abuela Lola</b>, Cecilia Samartin</li>
-            <li><b>El club Dumas</b>,Arturo Pérez-Reverte</li>
-        </ul>
-        
-        <img 
-            src="Desktop/GIT/uno/pruebaCLIP/love_books.jpg" 
-            width="200px" 
-            height="200px" 
-            alt="Ejemplo frustrado de red social, no se muestra imagen"
-        /> <!--src es un atributo-->
-        <hr />
-        <h2>Recomendaciones</h2>
-        <p>Podría dar recomendaciones pero sería un loop sin break, por el cual opto por dejarles el link de abajo. </p>
-        <!--atributo(href) = "valor"(link) -->
-       
-        <p>Pueden descargar en formato epub <a href="http://epublibre.org/inicio/index" target="_blank" >epublibre</a></p> <!--HREF HACE REFERENCIA AL LINK, target: abre en otra pestaña,pag externa siempre en un vinculo nuevo-->
-        <hr />
-     </body>
+<!DOCTYPE html>
+<!--esto es un doc con formato html-->
+<html lang="es">
+  <!-- inicio de documento html-->
+  <head>
+    <title>My first web page✌</title>
+    <meta charset="UTF-8" />
+    <!--Codigos hojas estilo-->
+  </head>
+
+  <link rel="stylesheet" href="miestilo.css" />
+  <body>
+      <header>
+      <!-- Menú de navegación del sitio -->
+  
+      <div class="main-content">
+        <div class="menu">
+           
+        <nav>
+          <ul>
+            <li><a href="#Sobremi" >Sobre mi</a></li>
+            <li><a href="#Recomendaciones" >Recomendaciones</a></li>
+             <!--el # es para el click-->
+          </ul>
+        </nav>
+        </div>
+      </div>
+  
+    <!--contenido visible del sitio-->
+    </br>
+  </br>
+  <div align="center">
+      <!--titulo de nivel-->
+      <h1 id="nombre">Mis lecturas</h1>
+     </div> 
+     </header>
+     <section>
+        <h2 id="Sobremi">Sobre mi</h2>
+        <div class="contenedor-Sobre mi">
+        <div class="texto-Sobre mi">
+        </div>
+        </div>
+    </section>   
+    <p>
+      Este es el primer párrafo de mi página, ¡chévere! Vamos a contar un poco
+      sobre las lecturas que me han atrapado.
+    </p>
+    <p>
+      He leído varios libros a lo largo de mi vida, algunos me cautivaron mas
+      que otros (obviamente).
+    </p>
+    <p>A continuacion voy a listar aquellos que mas me gustaron:</p>
+
+    <table summary="Autor y Titulo de libros">
+      <thead>
+        <tr>
+        <th>Titulo</th>
+        <th>Autor</th>
+      </tr>
+      </thead>
+        <td>Orgullo y prejuicio</td>
+        <td>Jane Austen</td>
+      </tr>
+      <tr>
+        <td>La historia del loco</td>
+        <td>John Katzenbach</td>
+      </tr>
+      <tr>
+        <td>El club Dumas</td>
+        <td>Arturo Pérez-Reverte</td>
+      </tr>
+      <td>Donde vive la loba</td>
+      <td>Cecilia Samartin</td>
+    </table>
+
+    <!--src es un atributo-->
+    <hr />
+    <section>
+
+       <h2 id="Recomendaciones">Recomendaciones</h2>
+      <div class="contenedor-Recomendaciones">
+               <div class="texto-Recomendaciones">
+    
+    <p>
+      Podría dar recomendaciones pero sería un loop sin break, por el cual opto
+      por dejarles el link de descarga a continuación.
+    </p>
+    <!--atributo(href) = "valor"(link) -->
+
+    <p>
+      Pueden descargar en formato Utorrent:
+      <a href="http://epublibre.org/inicio/index" target="_blank">epublibre</a>
+    </p>
+    <!--HREF HACE REFERENCIA AL LINK, target: abre en otra pestaña,pag externa siempre en un vinculo nuevo-->
+
+    <a href="http://epublibre.org/inicio/index" target="_blank">
+      <!--etiquetas dentro de etiquetas-->
+      <img
+        src="C:\Users\Aldana\Desktop\GIT\uno\epublibre.png"
+        width="100em"
+        height="100rem"
+        alt="Imágen de descarga de epublibre"
+      />
+    </a>  
+  </div> 
+    </div>
+    </section>  
+    <hr />
+    <div align="center">
+        <img
+        src="C:\Users\Aldana\Desktop\GIT\imagenes_html\love_books.jpg"
+        width="200em"
+        height="200rem"
+        alt="No se muestra imagen">
+    </div>  
+ 
+    <footer id="pie"></footer>
+  </body>
+
 </html>
