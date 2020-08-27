@@ -1,8 +1,9 @@
 /* Textos*/
+
 body {
-  color: rgb(0, 0, 0);
-  background-color: #f6f88c00;
-}
+  style="opacity: 0.15; background-color: rgb(255, 255, 255);">
+
+
 body {
   font-family: Georgia, "Sans-serif", Times, serif;
   color: rgb(255, 255, 255);
@@ -11,15 +12,10 @@ body {
 }
 h1 {
   font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
-  color: rgb(255, 112, 112);
+text-decoration: underline;
+
 }
-h1 {
-  text-decoration: underline;
-}
-h2 {
-  text-decoration: underline;
-  color: rgb(255, 112, 112);
-}
+
 ul {
   list-style-type: none;
 
@@ -38,10 +34,6 @@ li a {
   text-decoration: underline;
 }
 
-li a:hover {
-  background-color: rgb(141, 34, 155);
-  text-decoration: underline;
-}
 li {
   text-decoration-line: underline;
   text-align: left;
