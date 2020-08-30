@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+
+  <title>Document</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -10,8 +11,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-
-
+  
 <!DOCTYPE html>
 <!--esto es un doc con formato html-->
 <html lang="es">
@@ -21,8 +21,7 @@
   </head>
   <link rel="stylesheet" href="miestilo2.css" />
   <body>
-    <header>
-    <!-- Menú de navegación del sitio -->
+      <!-- Menú de navegación del sitio -->
       <div class="main-content">
         <div class="menu">
            
@@ -109,7 +108,7 @@
       </div>
     </section>
 
-    <div align="center">
+    <div align ="center">
       <img
         src="C:\Users\Aldana\Desktop\GIT\uno\pruebaCLIP\imagenes_html\mesa-cultivo-madera.jpg"
         width="200em"
@@ -124,8 +123,8 @@
               <p>
       Para mas información dirigirse a: 
 
-        <a href=https://www.magyp.gob.ar/sitio/areas/nuestra-huerta/pdf/mi-casa-mi-huerta.pdf target="_blank"    style="color:#014b38;">Mi casa, mi huerta</a> </p>
-        <a href=https://www.bioguia.com/ambiente/que-vegetales-plantar-en-cada-estacion-del-ano_29288932.html target="_blank" style="color:#00503c;">¿Qué plantar en cada época del año?</a>
+        <a href=https://www.magyp.gob.ar/sitio/areas/nuestra-huerta/pdf/mi-casa-mi-huerta.pdf target="_blank"    style="color:#1b049b;">Mi casa, mi huerta</a> </p>
+        <a href=https://www.bioguia.com/ambiente/que-vegetales-plantar-en-cada-estacion-del-ano_29288932.html target="_blank" style="color:#1b049b;">¿Qué plantar en cada época del año?</a>
         </p>
   </section>
   </body>
@@ -137,56 +136,63 @@
     <label for="email">Email address:</label>
     <input type="email" class="form-control" id="email">
   </div>
-  <div class="form-group">
+  <div class="form-group" >
     <label for="pwd">Password:</label>
     <input type="password" class="form-control" id="pwd">
   </div>
-  <div class="checkbox">
+  <div class="checkbox" >
    
   </div>
-     <button class="btn btn-info btn-block my-4" type="submit">Sign in</button>
-</form>
-
-
-    
-          <!-- Remember me -->
-          <div class="custom-control custom-checkbox">
-            <input
-              type="checkbox"
-              class="custom-control-input"
-              id="defaultLoginFormRemember"
-            />
-            <label class="custom-control-label" for="defaultLoginFormRemember"
+     <button class="btn btn-info btn-block my-4" type="submit" >Sign in</button>
+ </form>
+<!-- Remember me -->
+    <div class="custom-control custom-checkbox">
+      <input
+          type="checkbox"
+          class="custom-control-input"
+          id="defaultLoginFormRemember"
+       />
+      <label class="custom-control-label" for="defaultLoginFormRemember"
             
-              >Remember me</label
-            >
-          </div>
-        </div>
-        <div>
-          <!-- Forgot password -->
-          <a href="">Forgot password? </a>
-        </div>
+         >Remember me</label>
       </div>
-
-      <!-- Register -->
+    </div>
+    <div>
+ <!-- Forgot password -->
+      <a href=""style="color:#1b049b;">Forgot password? </a>
+      </div>
+  <!-- Register -->
       <p>
         Not a member?
-        <a href="">Register</a>
-      </p>
+        <a href=""style="color:#1b049b;">Register</a>
+      </p>   
+          
+    
+    <div align ="center">
+   
+        <h4>ADIVINANZA</h4><br>
+        <p>¿En que estación se siembra el repollo?</p>
 
-      <a href="#" class="mx-2" role="button"
-        ><i class="fab fa-facebook-f light-blue-text"></i
-      ></a>
-      <a href="#" class="mx-2" role="button"
-        ><i class="fab fa-twitter light-blue-text"></i
-      ></a>
-      <a href="#" class="mx-2" role="button"
-        ><i class="fab fa-linkedin-in light-blue-text"></i
-      ></a>
-      <a href="#" class="mx-2" role="button"
-        ><i class="fab fa-github light-blue-text"></i
-      ></a>
-    </form>
-    <!-- Default form login -->
-  </body>
+        <!-- cuadro donde el usuario pone la respuesta -->
+        <input id="input" type="text"><br><br>
+
+        <!-- aca es donde van a ir apareciendo los innerhtml, osea los mensajes si gano o no -->
+        <div id="nombre_input"></div>
+
+        <!-- boton para enviar y llamar a la funcion en javascript -->
+        <button id="boton" onclick="validar()" type="submit">RESPONDER</button><br><br>
+        
+      
+    </div>
+      
+          
+      <script src="validar.js">
+
+  </script>
+  </form>
+  </br>
+   </div> 
+  
+    </body>
 </html>
+</br>
